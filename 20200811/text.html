@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    span {
+        font-size: 25px;
+        font-weight: bold;
+        color: red;
+        vertical-align: middle; /*元素的垂直对齐方式*/
+        word-wrap:break-word; /*是否对过长的单词进行换行，break-word可以，默认的normal则不行*/
+        word-break: normal; /*非CJK脚本的断行规则 break-all允许在单词内换行；kepp-all只能在半角空格或连接字符处换行*/
+        text-shadow: 2px 2px #bfa; /*阴影文本*/
+        text-overflow: clip; /*当指定文本溢出包含它的元素，会发生：clip(默认)修剪文本，ellipsis省略号代替被修剪的，string用给出的字符串替代*/
+        text-align: left; /*元素文本水平对齐方式 left、right、center,justify:两端对齐（最后一行除外）*/
+        text-align-last: auto; /*当text-align值为justify时最后一行的对齐方式*/
+        word-spacing: 10px; /*增减或减少单词之间的间距*/
+        letter-spacing: 10px; /*增减或减少单词之间的间距*/
+        white-space: nowrap; /*设置怎样给一元素控件留白*/
+        text-transform: capitalize; /*控制文本大小写，capitalize-每个单词以大写字母开头 uppercase/lowercase*/
+        direction: ltr; /*规定文本的书写方向 ltr:从左往右  rtl:从右往左*/
+        line-height: 10px; /*设置行高*/
+        text-decoration: underline; /*文本装饰效果 none、underline、overline、line-thtough、blink*/
+        text-indent: 10px; /*首行缩进*/
+    }
+</style>
+<body>
+    <p>每一个程序员输出的第一个语句都是<span>hello world</span></p>
+</body>
+</html>

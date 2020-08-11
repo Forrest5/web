@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<style>
+    .box {
+        border-collapse: collapse; /*collapse:合并边框  separate:边框会被分开*/
+        border-spacing: 10px 5px; /*border-collapse的值为separate时边框的间距*/
+        caption-side: bottom; /*标题的位置*/
+        empty-cells: hide; /*border-collapse的值为separate时是否隐藏空单元格的边框和背景*/
+        table-layout: fixed; /*设置用于表格的布局算法 fixed/auto*/
+    }
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>
